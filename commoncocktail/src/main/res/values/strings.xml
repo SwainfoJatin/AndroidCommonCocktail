@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CommonCocktail</string>
+
+    <string name="dailog_title">Like App?</string>
+    <string name="dailog_content"> Help us reach the stars on the play store! \n it will take only 5 seconds!</string>
+    <string name="not_really">Not Really</string>
+    <string name="good">Good</string>
+    <string name="feedbackTitle">Tell us the problem you encountered</string>
+    <string name="submit">Submit</string>
+    <string name="title">Title</string>
+    <string name="start_here">Start Typing....</string>
+    <string name="please_allow_storage">Please Allow Storage</string>
+
+    <string-array name="Suggetion_List">
+        <item>Suggetion</item>
+        <item>Crash</item>
+        <item>Lags</item>
+        <item>Bad Quality</item>
+        <item>Bugs,Others</item>
+        <item>Ads</item>
+        <item>Slow Loading</item>
+    </string-array>
+
+</resources>

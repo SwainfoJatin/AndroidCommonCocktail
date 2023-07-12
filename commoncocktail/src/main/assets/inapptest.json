@@ -1,0 +1,13 @@
+{
+  "InAppUpdate": {
+    "UpdateType": 1,
+    "DialogShowTime": 1,
+    "DeatilsUpdateType": "0 -> Dont Show Dailog, 1 -> Update Felxible, 2 -> Update immidate  ",
+    "DeatilsDialogShow": "0 -> EveryTime, 1 -> OneTimeDay, 2 -> Singel Time per Life "
+  },
+  "InAppAdvertiesment": {
+    "DisplayAd": 1,
+    "Url": "https://mobisuit.com/",
+    "DeatilsDisplayAd": "0 -> Not Show, 1 -> Show"
+  }
+}

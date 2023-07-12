@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/_10sdp"
+    android:background="@drawable/bottomsheet_bg">
+
+     <TextView
+
+         android:id="@+id/title"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/dailog_title"
+         android:textColor="@color/black"
+         android:fontFamily="@font/roboto_bold"
+         android:textSize="@dimen/_15sdp"/>
+
+     <TextView
+         android:gravity="center"
+         android:layout_marginTop="@dimen/_10sdp"
+         android:id="@+id/content"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintEnd_toEndOf="parent"
+         android:fontFamily="@font/roboto_light"
+         android:text="@string/dailog_content"
+         android:textColor="@color/black"
+         android:textSize="@dimen/_12sdp"/>
+
+     <LinearLayout
+         android:layout_marginTop="@dimen/_20sdp"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/content"
+         app:layout_constraintEnd_toEndOf="parent"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+          <RelativeLayout
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="0.5">
+
+               <androidx.appcompat.widget.AppCompatButton
+                   android:id="@+id/BtnNotReally"
+                   android:layout_marginEnd="@dimen/_10sdp"
+                   android:layout_alignParentEnd="true"
+                   android:layout_centerVertical="true"
+                   android:layout_width="wrap_content"
+                   android:layout_height="@dimen/_30sdp"
+                   android:textColor="@color/white"
+                   android:text="@string/not_really"
+                   android:textSize="@dimen/_8sdp"
+                   android:fontFamily="@font/roboto_bold"
+                   android:background="@drawable/btn_bg"/>
+
+          </RelativeLayout>
+          <RelativeLayout
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="0.5">
+               <androidx.appcompat.widget.AppCompatButton
+                   android:id="@+id/BtnGood"
+                   android:layout_marginStart="@dimen/_10sdp"
+                  android:layout_alignParentStart="true"
+                   android:layout_centerVertical="true"
+                   android:layout_width="wrap_content"
+                   android:layout_height="@dimen/_30sdp"
+                   android:textColor="@color/white"
+                   android:text="@string/good"
+                   android:textSize="@dimen/_8sdp"
+                   android:fontFamily="@font/roboto_bold"
+                   android:background="@drawable/btn_bg"/>
+
+          </RelativeLayout>
+
+     </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
